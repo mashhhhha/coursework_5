@@ -75,7 +75,7 @@ def end_fight():
 
 
 @app.route("/choose-hero/", methods=['post', 'get'])
-def choose_hero(weapons):
+def choose_hero():
     # TODO кнопка выбор героя. 2 метода GET и POST
     # TODO на GET отрисовываем форму.
     # TODO на POST отправляем форму и делаем редирект на эндпоинт choose enemy
