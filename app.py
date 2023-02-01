@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, url_for
 from werkzeug.utils import redirect
-import equipment as Equipment
+from equipment import Equipment
 
 from base import Arena
 from classes import unit_classes
